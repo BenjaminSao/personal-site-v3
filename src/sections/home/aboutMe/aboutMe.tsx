@@ -8,7 +8,7 @@ export default function AboutMe()
 {
     return (
         <section className="section">
-                <div className="container mx-auto p-6 is-fullheight flex items-center">
+                <div className="container mx-auto px-6 py-12 is-fullheight flex items-center">
                     <div className="grid md:grid-cols-2 items-center gap-16 md:gap-48 ">
                         <div>
                             <h1>
