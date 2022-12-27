@@ -8,7 +8,7 @@ export default function Hero()
 {
     return (
         <section className={`section ${heroBackground}`}>
-            <div className="container mx-auto px-12 md:px-0 flex items-center justify-center is-fullheight">
+            <div className="container mx-auto px-12 md:px-0 pb-24 flex items-center justify-center is-fullheight">
                 <div>
                     <div className="flex justify-center mb-20">
                         <img src="/logo/logo.svg" alt="" />
