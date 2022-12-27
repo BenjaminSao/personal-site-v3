@@ -2,23 +2,18 @@
 {
     background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
     border-radius: 20px;
-    
-    padding: 4rem;
 }
 
 .smContainer
 {
     background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
     border-radius: 20px;
-    
-    padding: 1rem;
-    
+
 
     >.smContainerSpecialFont
     {
         font-family: "Ruler Modern";
         font-weight: 500;
-        font-size: 64px;
         line-height: 4rem;
 
         background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
@@ -33,14 +28,11 @@
 {
     background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
     border-radius: 20px;
-    
-    padding: 0 2.5rem;
 
     >.mContainerSpecialFont
     {
         font-family: "Ruler Modern";
         font-weight: 500;
-        font-size: 96px;
         line-height: 6rem;
 
         background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
@@ -54,7 +46,6 @@
     {
         font-family: 'Poppins';
         font-weight: 600;
-        font-size: 26px;
 
         background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
         -webkit-background-clip: text;

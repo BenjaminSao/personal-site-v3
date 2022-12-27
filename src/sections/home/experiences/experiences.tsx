@@ -13,7 +13,7 @@ export default function Experiences()
 {
     return (
         <section className="section">
-                <div className="container mx-auto p-12 is-fullheight">
+                <div className="container mx-auto p-6 is-fullheight flex flex-col justify-center">
                     <div className="mb-6">
                         <h1 className="is-text-gradient-1">Experiences</h1>
                         <p>
@@ -22,8 +22,8 @@ export default function Experiences()
                         </p>
                     </div>
 
-                    <div className={`grid grid-cols-2 gap-8 ${experiencesContainer}`}>
-                        <div className={`${experienceContainer} h-full flex flex-col justify-between`}>
+                    <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 ${experiencesContainer}`}>
+                        <div className={`${experienceContainer} p-10 md:p-16 h-full flex flex-col justify-between`}>
                             <div>
                                 <Image
                                     src="/images/briefcase.svg"
@@ -54,8 +54,8 @@ export default function Experiences()
                         </div>
 
                         <div>
-                            <div className={`${experienceContainer} flex flex-col justify-between mb-8`}>
-                                <div className="grid grid-cols-2">
+                            <div className={`${experienceContainer} p-10 md:p-16 flex flex-col justify-between mb-8`}>
+                                <div className="grid md:grid-cols-2">
                                     <div>
                                         <div className="mb-8">
                                             <Image
@@ -78,7 +78,7 @@ export default function Experiences()
                                             Learn More
                                         </button>
                                     </div>
-                                    <div className="flex justify-center">
+                                    <div className="justify-center hidden md:flex">
                                         <Image
                                             src="/images/htv.svg"
                                             width={250}
@@ -89,8 +89,8 @@ export default function Experiences()
                                     </div>
                                 </div>
                             </div>
-                            <div className="grid grid-cols-2 gap-8">
-                                <div className={`${experienceContainer} flex flex-col justify-between`}>
+                            <div className="grid grid-cols-2 gap-4 md:gap-8">
+                                <div className={`${experienceContainer} p-6 md:p-16 flex flex-col justify-between`}>
                                     <div className="mb-4">
                                         <Image
                                             src="/images/briefcase.svg"
@@ -98,7 +98,7 @@ export default function Experiences()
                                             height={35}
                                             alt="suitcase"
                                         ></Image>
-                                        <h2 className="is-purple">
+                                        <h2 className="is-purple text-xl md:text-4xl">
                                             NS Labs Inc
                                         </h2>
                                     </div>
@@ -106,7 +106,7 @@ export default function Experiences()
                                         <FeatherIcon icon="info"></FeatherIcon>
                                     </button>
                                 </div>
-                                <div className={`${experienceContainer} flex flex-col justify-between`}>
+                                <div className={`${experienceContainer} p-6 md:p-16 flex flex-col justify-between`}>
                                     <div className="mb-4">
                                         <Image
                                             src="/images/book-open.svg"
@@ -114,7 +114,7 @@ export default function Experiences()
                                             height={35}
                                             alt="suitcase"
                                         ></Image>
-                                        <h2 className="is-purple">
+                                        <h2 className="is-purple text-xl md:text-4xl">
                                             University of Toronto
                                         </h2>
                                         <Image
@@ -122,7 +122,7 @@ export default function Experiences()
                                             width={500}
                                             height={500}
                                             alt="suitcase"
-                                            className={`opacity-20 ${offsetImage}`}
+                                            className={`opacity-20 ${offsetImage} invisible md:visible`}
                                         ></Image>
                                     </div>
                                     <button className="button is-black">

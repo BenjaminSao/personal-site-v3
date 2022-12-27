@@ -8,8 +8,8 @@ export default function AboutMe()
 {
     return (
         <section className="section">
-                <div className="container mx-auto p-12 is-fullheight flex items-center">
-                    <div className="grid md:grid-cols-2 items-center gap-24 md:gap-48 ">
+                <div className="container mx-auto p-6 is-fullheight flex items-center">
+                    <div className="grid md:grid-cols-2 items-center gap-16 md:gap-48 ">
                         <div>
                             <h1>
                                 <span className="is-purple">Hi there,</span>
@@ -43,10 +43,10 @@ export default function AboutMe()
                             </p>
                         </div>
                         <div className="grid grid-cols-2">
-                            <div className={`${placeholderImageBox} mb-10`}></div>
-                            <div className={`${placeholderImageBox} col-span-2 mb-10`}></div>
+                            <div className={`${placeholderImageBox} mb-4 md:mb-10 col-span-2 md:col-span-1`}></div>
+                            <div className={`${placeholderImageBox} col-span-2 mb-4 md:mb-10`}></div>
                             <div></div>
-                            <div className={`${placeholderImageBox}`}></div>
+                            <div className={`${placeholderImageBox} col-span-2 md:col-span-1`}></div>
                         </div>
                     </div>
                 </div>

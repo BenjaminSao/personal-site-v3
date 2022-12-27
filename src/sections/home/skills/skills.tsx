@@ -6,7 +6,7 @@ const { mainSkillsContainer, smContainer, mContainer, tag, isHighlighted, smCont
 export default function Skills() {
     return (
         <section className="section">
-            <div className="container mx-auto p-12 is-fullheight">
+            <div className="container mx-auto p-6 is-fullheight flex flex-col justify-center">
                 <div className="mb-6">
                     <h1 className="is-text-gradient-1">Skills</h1>
                     <p>
@@ -14,8 +14,8 @@ export default function Skills() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-3 gap-8">
-                    <div className={`${mainSkillsContainer} col-span-2`}>
+                <div className="grid md:grid-cols-3 gap-8">
+                    <div className={`${mainSkillsContainer} p-12 md:p-16 md:col-span-2`}>
                         <h1 className="is-blue mb-4">Tools & Frameworks</h1>
                         <div className="flex flex-wrap mb-6">
                             <div className={`${tag} ${isHighlighted}`}>
@@ -110,25 +110,25 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className="grid grid-col-2 gap-4">
-                        <div className={`${smContainer} flex justify-center flex-col`}>
-                            <h1 className={`${smContainerSpecialFont} text-center`}>
+                        <div className={`${smContainer} p-6 flex justify-center flex-col`}>
+                            <h1 className={`${smContainerSpecialFont} text-6xl text-center`}>
                                 3
                             </h1>
                             <p className="text-center is-blue font-semibold">Hackathon Wins</p>
                         </div>
-                        <div className={`${smContainer} flex justify-center flex-col`}>
-                            <h1 className={`${smContainerSpecialFont} text-center`}>
+                        <div className={`${smContainer} p-6 flex justify-center flex-col`}>
+                            <h1 className={`${smContainerSpecialFont} text-6xl text-center`}>
                                 10+
                             </h1>
                             <p className="text-center is-blue font-semibold">Projects</p>
                         </div>
-                        <div className={`${mContainer} col-span-2 flex items-center justify-center`}>
-                            <h1 className={`${mContainerSpecialFont} text-center pl-4`}>
+                        <div className={`${mContainer} p-6 col-span-2 flex items-center justify-center`}>
+                            <h1 className={`${mContainerSpecialFont} text-6xl md:text-8xl text-center pl-4`}>
                                     1+
                             </h1>
-                            <p className={`${mContainerSpecialContent} text-center`}>Years of Work Experience</p>
+                            <p className={`${mContainerSpecialContent} text-xl md:text-3xl text-center`}>Years of Work Experience</p>
                         </div>
-                        <div className={`${mContainer} col-span-2 flex items-center`}>
+                        <div className={`${mContainer} p-12 col-span-2 flex items-center`}>
                             <div>
                                <h1 className="is-blue mb-4">Interests</h1>
                             <div className="flex flex-wrap">
