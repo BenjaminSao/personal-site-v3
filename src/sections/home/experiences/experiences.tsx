@@ -4,7 +4,6 @@ import FeatherIcon from "feather-icons-react";
 import styles from "./experiences.module.scss";
 
 const {
-    experiencesContainer,
     experienceContainer,
     offsetImage
 } = styles;
@@ -22,8 +21,8 @@ export default function Experiences()
                         </p>
                     </div>
 
-                    <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 ${experiencesContainer}`}>
-                        <div className={`${experienceContainer} p-10 md:p-16 h-full flex flex-col justify-between`}>
+                    <div className={`grid grid-cols-1 md:grid-cols-2 gap-8`}>
+                        <div className={`${experienceContainer} p-10 md:p-16 flex flex-col justify-between`}>
                             <div>
                                 <Image
                                     src="/images/briefcase.svg"
