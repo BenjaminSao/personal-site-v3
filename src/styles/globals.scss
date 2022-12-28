@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$pewter-blue: #76949F;
+$rich-black: #0C090D;
+$bisque: #F1DABF;
+$mauve-taupe: #896279;
+$snow: #FFFBFF;
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "RulerModern";
+    src: url("../assets/fonts/RulerModern/Ruler\ Modern.ttf");
+}
+
+h1
+{
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+h2
+{
+    font-weight: 600;
+    font-size: 1.625rem;
+}
+
+p
+{
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+label
+{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+a
+{
+    color: $pewter-blue;
+    text-decoration: underline;
+
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.headings
+{
+    font-family: "RulerModern";
+    font-size: 6rem;
+
+    @media only screen and (max-width: 600px) 
+    {
+        font-size: 4rem;
+    }
+}
+
+.is-text-gradient-1
+{
+    background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+// General
+body
+{
+    min-height: 100vh;
+    font-family: Poppins, Helvetica, sans-serif;
+
+    color: $rich-black;
+    background: #FFFBFF;
+}
+
+.scroll-snap
+{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-stop: always;
+
+    >section
+    {
+        scroll-snap-align: start;
+    }
+}
+
+
+// Sizing
+.is-fullheight
+{
+    min-height: 100vh;
+}
+
+
+// Colour
+.is-blue
+{
+    color: $pewter-blue;
+}
+
+.is-black
+{
+    color: $rich-black;
+}
+
+.is-pale
+{
+    color: $bisque;
+}
+
+.is-purple
+{
+    color: $mauve-taupe;
+}
+
+.is-white
+{
+    color: $snow;;
+}
+
+
+// Button
+.button
+{
+    width: fit-content;
+
+    background-color: $pewter-blue;
+    color: $snow;
+
+    font-weight: 600;
+    font-size: 1.125rem;
+    
+    padding: 0.75rem 2rem;
+    border-radius: 1.25rem;
+
+    &.is-black
+    {
+        background-color: $rich-black;
+        color: $snow;
+    }
+}

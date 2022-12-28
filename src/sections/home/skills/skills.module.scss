@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "RulerModern";
+    src: url("../../../assets/fonts/RulerModern/Ruler\ Modern.ttf");
+}
+
+.mainSkillsContainer
+{
+    background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
+    border-radius: 20px;
+}
+
+.smContainer
+{
+    background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
+    border-radius: 20px;
+
+
+    >.smContainerSpecialFont
+    {
+        font-family: "RulerModern";
+        font-weight: 500;
+        line-height: 4rem;
+
+        background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.mContainer
+{
+    background: linear-gradient(180deg, rgba(137, 98, 121, 0.15) 0%, rgba(118, 148, 159, 0.15) 100%);;
+    border-radius: 20px;
+
+    >.mContainerSpecialFont
+    {
+        font-family: "RulerModern";
+        font-weight: 500;
+        line-height: 6rem;
+
+        background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    >.mContainerSpecialContent
+    {
+        font-family: 'Poppins';
+        font-weight: 600;
+
+        background: linear-gradient(180deg, #76949F 0%, #F1DABF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.tag
+{
+    background: white;
+    border-radius: 20px;
+
+    padding: 0.75rem 1.25rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    &.isHighlighted
+    {
+        background: linear-gradient(180deg, #76949F 0%, #896279 100%);
+        color: white;
+    }
+}
