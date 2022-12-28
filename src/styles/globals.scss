@@ -133,6 +133,7 @@ body
 .button
 {
     width: fit-content;
+    height: fit-content;
 
     background-color: $pewter-blue;
     color: $snow;
@@ -147,5 +148,17 @@ body
     {
         background-color: $rich-black;
         color: $snow;
+    }
+
+    &.is-white
+    {
+        background-color: $snow;
+        color: $rich-black;
+    }
+
+    &.is-circle
+    {
+        border-radius: 50%;
+        padding: 1.25rem;
     }
 }

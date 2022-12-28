@@ -1,7 +1,15 @@
 import styles from "./skills.module.scss";
 
-const { mainSkillsContainer, smContainer, mContainer, tag, isHighlighted, smContainerSpecialFont, mContainerSpecialFont, mContainerSpecialContent } =
-    styles;
+const {
+    mainSkillsContainer,
+    smContainer,
+    mContainer,
+    tag,
+    isHighlighted,
+    smContainerSpecialFont,
+    mContainerSpecialFont,
+    mContainerSpecialContent,
+} = styles;
 
 export default function Skills() {
     return (
@@ -14,8 +22,10 @@ export default function Skills() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
-                    <div className={`${mainSkillsContainer} p-12 md:p-16 md:col-span-2`}>
+                <div className="grid md:grid-cols-3 gap-4">
+                    <div
+                        className={`${mainSkillsContainer} p-12 md:p-16 md:col-span-2`}
+                    >
                         <h1 className="is-blue mb-4">Tools & Frameworks</h1>
                         <div className="flex flex-wrap mb-6">
                             <div className={`${tag} ${isHighlighted}`}>
@@ -93,60 +103,81 @@ export default function Skills() {
                         <h1 className="is-blue mb-4">Hobbies ;)</h1>
                         <div className="flex flex-wrap">
                             <div className={`${tag} ${isHighlighted}`}>
-                                <label>アニメ</label>   
+                                <label>アニメ</label>
                             </div>
                             <div className={`${tag} ${isHighlighted}`}>
-                                <label>Piano</label>   
+                                <label>Piano</label>
                             </div>
                             <div className={`${tag} ${isHighlighted}`}>
-                                <label>Working Out</label>   
+                                <label>Working Out</label>
                             </div>
-                            <div className={`${tag} ${isHighlighted}`}>
-                                <label>Basketball</label>   
+                            <div className={`${tag}`}>
+                                <label>Basketball</label>
                             </div>
-                            <div className={`${tag} ${isHighlighted}`}>
-                                <label>Archery</label>   
+                            <div className={`${tag}`}>
+                                <label>Archery</label>
                             </div>
                         </div>
                     </div>
                     <div className="grid grid-col-2 gap-4">
-                        <div className={`${smContainer} p-6 flex justify-center flex-col`}>
-                            <h1 className={`${smContainerSpecialFont} text-6xl text-center`}>
+                        <div
+                            className={`${smContainer} p-6 flex justify-center flex-col`}
+                        >
+                            <h1
+                                className={`${smContainerSpecialFont} text-6xl text-center`}
+                            >
                                 3
                             </h1>
-                            <p className="text-center is-blue font-semibold">Hackathon Wins</p>
+                            <p className="text-center is-blue font-semibold">
+                                Hackathon Wins
+                            </p>
                         </div>
-                        <div className={`${smContainer} p-6 flex justify-center flex-col`}>
-                            <h1 className={`${smContainerSpecialFont} text-6xl text-center`}>
+                        <div
+                            className={`${smContainer} p-6 flex justify-center flex-col`}
+                        >
+                            <h1
+                                className={`${smContainerSpecialFont} text-6xl text-center`}
+                            >
                                 10+
                             </h1>
-                            <p className="text-center is-blue font-semibold">Projects</p>
+                            <p className="text-center is-blue font-semibold">
+                                Projects
+                            </p>
                         </div>
-                        <div className={`${mContainer} p-6 col-span-2 flex items-center justify-center`}>
-                            <h1 className={`${mContainerSpecialFont} text-6xl md:text-8xl text-center pl-4`}>
-                                    1+
+                        <div
+                            className={`${mContainer} p-6 col-span-2 flex items-center justify-center`}
+                        >
+                            <h1
+                                className={`${mContainerSpecialFont} text-6xl md:text-8xl text-center pl-4`}
+                            >
+                                1+
                             </h1>
-                            <p className={`${mContainerSpecialContent} text-xl md:text-3xl text-center`}>Years of Work Experience</p>
+                            <p
+                                className={`${mContainerSpecialContent} text-xl md:text-3xl text-center`}
+                            >
+                                Years of Work Experience
+                            </p>
                         </div>
-                        <div className={`${mContainer} p-12 col-span-2 flex items-center`}>
+                        <div
+                            className={`${mContainer} p-12 col-span-2 flex items-center`}
+                        >
                             <div>
-                               <h1 className="is-blue mb-4">Interests</h1>
-                            <div className="flex flex-wrap">
-                                <div className={`${tag}`}>
-                                    <label>ML</label>   
+                                <h1 className="is-blue mb-4">Interests</h1>
+                                <div className="flex flex-wrap">
+                                    <div className={`${tag}`}>
+                                        <label>ML</label>
+                                    </div>
+                                    <div className={`${tag}`}>
+                                        <label>AI</label>
+                                    </div>
+                                    <div className={`${tag}`}>
+                                        <label>Entrepreneurship</label>
+                                    </div>
+                                    <div className={`${tag}`}>
+                                        <label>Enterprise Architecture</label>
+                                    </div>
                                 </div>
-                                <div className={`${tag}`}>
-                                    <label>AI</label>   
-                                </div>
-                                <div className={`${tag}`}>
-                                    <label>Entrepreneurship</label>   
-                                </div>
-                                <div className={`${tag}`}>
-                                    <label>Enterprise Architecture</label>   
-                                </div>
-                            </div> 
                             </div>
-                            
                         </div>
                     </div>
                 </div>

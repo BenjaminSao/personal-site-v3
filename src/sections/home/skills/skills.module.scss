@@ -71,7 +71,7 @@
 
     &.isHighlighted
     {
-        background: linear-gradient(180deg, #76949F 0%, #896279 100%);
+        background: linear-gradient(180deg, #76949F 0%, rgba(118, 148, 159, 0.5) 100%);
         color: white;
     }
 }

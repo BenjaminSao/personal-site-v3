@@ -1,0 +1,20 @@
+.projectContainer
+{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+
+    position: relative;
+
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.learnMoreButton
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    transform: translateX(-20px) translateY(-20px);
+}

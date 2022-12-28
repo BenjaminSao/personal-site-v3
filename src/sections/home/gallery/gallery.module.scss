@@ -1,0 +1,35 @@
+.galleryContainer
+{
+    position: relative;
+}
+
+.placeholderImage
+{
+    background: linear-gradient(180deg, #F1DABF 0%, rgba(241, 218, 191, 0.3) 100%);
+    border-radius: 20px;
+
+    width: 450px;
+    height: 450px;
+
+    @media only screen and (max-width: 600px) 
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    &.isBehind
+    {
+        position: absolute;
+        transform: translateX(15px) translateY(15px);
+    }
+}
+
+.galleryButton
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transform: translateX(35px) translateY(35px);
+}
+
