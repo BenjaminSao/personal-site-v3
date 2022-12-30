@@ -6,7 +6,7 @@ const { projectContainer, isLarge, isSmall, learnMoreButton } = styles;
 
 export default function Projects() {
     return (
-        <section className="section">
+        <section className="section" id="Projects">
             <div className="container mx-auto p-6 is-fullheight flex flex-col justify-center">
                 <div className="mb-6">
                     <h1 className="is-text-gradient-1">Projects</h1>
@@ -19,7 +19,7 @@ export default function Projects() {
                     <div
                         className={`${projectContainer} ${isLarge} py-20 px-6 md:px-10 col-span-2 flex flex-col justify-center`}
                         style={{
-                            background: `linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("/images/personal-site-v3.png")`,
+                            background: `linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url("/images/personal-site-v3.png")`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}
@@ -48,7 +48,7 @@ export default function Projects() {
                     <div
                         className={`${projectContainer} py-20 px-6 md:px-10 ${isSmall}`}
                     >
-                        <h2>Secure Tags</h2>
+                        <h2 className="mb-4">Secure Tags</h2>
                         <button
                             className={`${learnMoreButton} button is-circle is-white`}
                         >
@@ -63,7 +63,7 @@ export default function Projects() {
                     <div
                         className={`${projectContainer} py-20 px-6 md:px-10 ${isSmall}`}
                     >
-                        <h2>Certi Chain</h2>
+                        <h2 className="mb-4">Certi Chain</h2>
                         <button
                             className={`${learnMoreButton} button is-circle is-white`}
                         >
@@ -78,7 +78,7 @@ export default function Projects() {
                     <div
                         className={`${projectContainer} ${isLarge} py-20 px-6 md:px-10 col-span-2 flex flex-col justify-center`}
                         style={{
-                            background: `linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("/images/tappedin.png")`,
+                            background: `linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url("/images/tappedin.png")`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}
@@ -106,7 +106,7 @@ export default function Projects() {
                     <div
                         className={`${projectContainer} ${isSmall} py-20 px-6 md:px-10`}
                     >
-                        <h2>Ecoblock</h2>
+                        <h2 className="mb-4">Ecoblock</h2>
                         <button
                             className={`${learnMoreButton} button is-circle is-white`}
                         >

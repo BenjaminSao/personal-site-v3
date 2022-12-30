@@ -13,7 +13,7 @@ const {
 
 export default function Skills() {
     return (
-        <section className="section">
+        <section className="section" id="Skills">
             <div className="container mx-auto p-6 is-fullheight flex flex-col justify-center">
                 <div className="mb-6">
                     <h1 className="is-text-gradient-1">Skills</h1>

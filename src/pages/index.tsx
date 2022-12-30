@@ -1,3 +1,5 @@
+import Navbar from "../components/navbar/navbar";
+import Navigation from "../components/navigation/navigation";
 import Hero from "../sections/home/hero/hero";
 import AboutMe from "../sections/home/aboutMe/aboutMe";
 import Experiences from "../sections/home/experiences/experiences";
@@ -7,7 +9,9 @@ import Projects from "../sections/home/projects/projects";
 
 export default function Home() {
     return (
-        <div className="scroll-snap">
+        <div>
+            <Navbar></Navbar>
+            <Navigation></Navigation>
             <Hero></Hero>
             <AboutMe></AboutMe>
             <Experiences></Experiences>

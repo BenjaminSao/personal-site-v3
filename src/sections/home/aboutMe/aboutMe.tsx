@@ -4,7 +4,7 @@ const { placeholderImageBox } = styles;
 
 export default function AboutMe() {
     return (
-        <section className="section">
+        <section className="section" id="AboutMe">
             <div className="container mx-auto px-6 py-12 is-fullheight flex items-center">
                 <div className="grid md:grid-cols-2 items-center gap-16 md:gap-48 ">
                     <div>

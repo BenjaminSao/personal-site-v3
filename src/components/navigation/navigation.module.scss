@@ -1,0 +1,21 @@
+.circleContainer
+{
+    position: fixed;
+
+    top: calc(50vh - 7rem);
+    left: 2rem;
+
+    >.circle
+    {
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: rgba(12, 9, 13, 0.25);
+
+        border-radius: 50%;
+
+        &.isSelected
+        {
+            background-color: rgba(12, 9, 13, 1);
+        }
+    }
+}

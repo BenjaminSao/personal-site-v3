@@ -7,7 +7,7 @@ const { experienceContainer, offsetImage } = styles;
 
 export default function Experiences() {
     return (
-        <section className="section">
+        <section className="section" id="Experiences">
             <div className="container mx-auto p-6 is-fullheight flex flex-col justify-center">
                 <div className="mb-6">
                     <h1 className="is-text-gradient-1">Experiences</h1>
